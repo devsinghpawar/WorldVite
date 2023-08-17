@@ -8,7 +8,6 @@ function CityList() {
   const { cities, isLoading } = useCities();
 
   if (isLoading) return <Spinner />;
-  console.log(cities, "iuhbn");
 
   if (!cities.length)
     return (
